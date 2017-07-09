@@ -17,38 +17,43 @@ Otherwise your changes will be overwritten the next time you save the extension 
 
 <f:flashMessages />
 
-<table  class="tx_annuairematthiasrodier" >
-	<tr>
-		<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.prenom" /></th>
-		<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.nom" /></th>
-		<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.tel" /></th>
-		<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.email" /></th>
-		<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.adresse" /></th>
-		<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.cp" /></th>
-		<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.ville" /></th>
-		<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.photo" /></th>
-		<th> </th>
-		<th> </th>
-	</tr>
+<f:widget.paginate objects="{contacts}" as="paginatedContacts" configuration="{itemsPerPage: 2, insertAbove: 1, insertBelow: 0, maximumNumberOfLinks: 10}">
 
-	<f:for each="{contacts}" as="contact">
+
+	<table  class="tx_annuairematthiasrodier" >
 		<tr>
-			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.prenom}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.nom}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.tel}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.email}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.adresse}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.cp}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.ville}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{contact : contact}">
-				<f:image src="{contact.photo.originalResource.publicUrl}" width="200"/>
-				</f:link.action>
-			</td>
-			<td><f:link.action action="edit" arguments="{contact : contact}">Edit</f:link.action></td>
-			<td><f:link.action action="delete" arguments="{contact : contact}">Delete</f:link.action></td>
+			<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.prenom" /></th>
+			<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.nom" /></th>
+			<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.tel" /></th>
+			<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.email" /></th>
+			<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.adresse" /></th>
+			<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.cp" /></th>
+			<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.ville" /></th>
+			<th><f:translate key="tx_annuairematthiasrodier_domain_model_contact.photo" /></th>
+			<th> </th>
+			<th> </th>
 		</tr>
-	</f:for>
-</table>
+
+		<f:for each="{paginatedContacts}" as="contact">
+			<tr>
+				<td><f:link.action action="show" arguments="{contact : contact}"> {contact.prenom}</f:link.action></td>
+				<td><f:link.action action="show" arguments="{contact : contact}"> {contact.nom}</f:link.action></td>
+				<td><f:link.action action="show" arguments="{contact : contact}"> {contact.tel}</f:link.action></td>
+				<td><f:link.action action="show" arguments="{contact : contact}"> {contact.email}</f:link.action></td>
+				<td><f:link.action action="show" arguments="{contact : contact}"> {contact.adresse}</f:link.action></td>
+				<td><f:link.action action="show" arguments="{contact : contact}"> {contact.cp}</f:link.action></td>
+				<td><f:link.action action="show" arguments="{contact : contact}"> {contact.ville}</f:link.action></td>
+				<td><f:link.action action="show" arguments="{contact : contact}">
+					<f:image src="{contact.photo.originalResource.publicUrl}" width="200"/>
+					</f:link.action>
+				</td>
+				<td><f:link.action action="edit" arguments="{contact : contact}">Edit</f:link.action></td>
+				<td><f:link.action action="delete" arguments="{contact : contact}">Delete</f:link.action></td>
+			</tr>
+		</f:for>
+	</table>
+
+</f:widget.paginate>
 
 <f:link.action action="new">New Contact</f:link.action>
 </f:section>
