@@ -45,7 +45,7 @@ Otherwise your changes will be overwritten the next time you save the extension 
 			<td><f:link.action action="show" arguments="{organisme : organisme}"> {organisme.email}</f:link.action></td>
 			<td><f:link.action action="show" arguments="{organisme : organisme}"> {organisme.description}</f:link.action></td>
 			<td><f:link.action action="show" arguments="{organisme : organisme}"> {organisme.siret}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{organisme : organisme}"> {organisme.logo.originalResource.name}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{organisme : organisme}"> <f:image src="{organisme.logo.originalResource.publicUrl}" width="200"/></f:link.action></td>
 			<td><f:link.action action="show" arguments="{organisme : organisme}"> {organisme.horaires}</f:link.action></td>
 		</tr>
 	</f:for>

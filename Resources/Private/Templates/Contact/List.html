@@ -40,7 +40,10 @@ Otherwise your changes will be overwritten the next time you save the extension 
 			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.adresse}</f:link.action></td>
 			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.cp}</f:link.action></td>
 			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.ville}</f:link.action></td>
-			<td><f:link.action action="show" arguments="{contact : contact}"> {contact.photo.originalResource.name}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{contact : contact}">
+				<f:image src="{contact.photo.originalResource.publicUrl}" width="200"/>
+				</f:link.action>
+			</td>
 			<td><f:link.action action="edit" arguments="{contact : contact}">Edit</f:link.action></td>
 			<td><f:link.action action="delete" arguments="{contact : contact}">Delete</f:link.action></td>
 		</tr>
