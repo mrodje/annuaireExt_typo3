@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-07-09T10:45:30Z" product-name="annuaire_matthias_rodier">
+		<header/>
+		<body>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshowcontact">
+				<source>mrodier_listAndShowContact</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshowcontact.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keysearchcontact">
+				<source>mrodier_searchContact</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keysearchcontact.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshoworganisme">
+				<source>mrodier_listAndShowOrganisme</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshoworganisme.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="prenom.description">
+				<source>prenom</source>
+			</trans-unit>
+			<trans-unit id="nom.description">
+				<source>nom</source>
+			</trans-unit>
+			<trans-unit id="tel.description">
+				<source>tel</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>email</source>
+			</trans-unit>
+			<trans-unit id="adresse.description">
+				<source>adresse</source>
+			</trans-unit>
+			<trans-unit id="cp.description">
+				<source>cp</source>
+			</trans-unit>
+			<trans-unit id="ville.description">
+				<source>ville</source>
+			</trans-unit>
+			<trans-unit id="photo.description">
+				<source>photo</source>
+			</trans-unit>
+			<trans-unit id="organisme.description">
+				<source>organisme</source>
+			</trans-unit>
+			<trans-unit id="fonction.description">
+				<source>fonction</source>
+			</trans-unit>
+			<trans-unit id="service.description">
+				<source>service</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

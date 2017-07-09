@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-07-09T10:45:30Z" product-name="annuaire_matthias_rodier">
+		<header/>
+		<body>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshowcontact">
+				<source>mrodier_listAndShowContact</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshowcontact.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keysearchcontact">
+				<source>mrodier_searchContact</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keysearchcontact.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshoworganisme">
+				<source>mrodier_listAndShowOrganisme</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshoworganisme.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="raison_sociale.description">
+				<source>raisonSociale</source>
+			</trans-unit>
+			<trans-unit id="adresse_postale.description">
+				<source>adressePostale</source>
+			</trans-unit>
+			<trans-unit id="cp.description">
+				<source>cp</source>
+			</trans-unit>
+			<trans-unit id="ville.description">
+				<source>ville</source>
+			</trans-unit>
+			<trans-unit id="tel.description">
+				<source>tel</source>
+			</trans-unit>
+			<trans-unit id="fax.description">
+				<source>fax</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>email</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="siret.description">
+				<source>siret</source>
+			</trans-unit>
+			<trans-unit id="logo.description">
+				<source>logo</source>
+			</trans-unit>
+			<trans-unit id="horaires.description">
+				<source>horaires</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

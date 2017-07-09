@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-07-09T10:45:30Z" product-name="annuaire_matthias_rodier">
+		<header/>
+		<body>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshowcontact">
+				<source>mrodier_listAndShowContact</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshowcontact.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keysearchcontact">
+				<source>mrodier_searchContact</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keysearchcontact.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshoworganisme">
+				<source>mrodier_listAndShowOrganisme</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshoworganisme.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme">
+				<source>Organisme</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.raison_sociale">
+				<source>Raison Sociale</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.adresse_postale">
+				<source>Adresse Postale</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.cp">
+				<source>Cp</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.ville">
+				<source>Ville</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.tel">
+				<source>Tel</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.fax">
+				<source>Fax</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.siret">
+				<source>Siret</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.logo">
+				<source>Logo</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_organisme.horaires">
+				<source>Horaires</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_fonction">
+				<source>Fonction</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_fonction.libelle">
+				<source>Libelle</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_fonction.responsable">
+				<source>Responsable</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_service">
+				<source>Service</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_service.libelle">
+				<source>Libelle</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_service.batiment">
+				<source>Batiment</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_service.bureau">
+				<source>Bureau</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_service.tel">
+				<source>Tel</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_service.horaires">
+				<source>Horaires</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact">
+				<source>Contact</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.prenom">
+				<source>Prenom</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.nom">
+				<source>Nom</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.tel">
+				<source>Tel</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.adresse">
+				<source>Adresse</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.cp">
+				<source>Cp</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.ville">
+				<source>Ville</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.photo">
+				<source>Photo</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.organisme">
+				<source>Organisme</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.fonction">
+				<source>Fonction</source>
+			</trans-unit>
+			<trans-unit id="tx_annuairematthiasrodier_domain_model_contact.service">
+				<source>Service</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

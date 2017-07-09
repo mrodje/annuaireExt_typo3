@@ -1,0 +1,68 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<table class="tx-annuaire-matthias-rodier" >
+	<tr>
+		<td>
+			<f:translate key="tx_annuairematthiasrodier_domain_model_contact.prenom" />
+		</td>
+		<td>
+		{contact.prenom}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_annuairematthiasrodier_domain_model_contact.nom" />
+		</td>
+		<td>
+		{contact.nom}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_annuairematthiasrodier_domain_model_contact.tel" />
+		</td>
+		<td>
+		{contact.tel}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_annuairematthiasrodier_domain_model_contact.email" />
+		</td>
+		<td>
+		{contact.email}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_annuairematthiasrodier_domain_model_contact.adresse" />
+		</td>
+		<td>
+		{contact.adresse}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_annuairematthiasrodier_domain_model_contact.cp" />
+		</td>
+		<td>
+		{contact.cp}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_annuairematthiasrodier_domain_model_contact.ville" />
+		</td>
+		<td>
+		{contact.ville}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_annuairematthiasrodier_domain_model_contact.photo" />
+		</td>
+		<td>
+				<f:image src="{contact.photo.originalResource.publicUrl}" width="200"/>
+		</td>
+	</tr>
+</table>
+</html>

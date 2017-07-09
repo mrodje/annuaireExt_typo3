@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-07-09T10:45:30Z" product-name="annuaire_matthias_rodier">
+		<header/>
+		<body>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshowcontact">
+				<source>mrodier_listAndShowContact</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshowcontact.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keysearchcontact">
+				<source>mrodier_searchContact</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keysearchcontact.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshoworganisme">
+				<source>mrodier_listAndShowOrganisme</source>
+			</trans-unit>
+			<trans-unit id="tx_annuaire_matthias_rodier_domain_model_keylistandshoworganisme.description">
+				<source>A little test to implement an extension to typo3</source>
+			</trans-unit>
+			<trans-unit id="libelle.description">
+				<source>libelle</source>
+			</trans-unit>
+			<trans-unit id="batiment.description">
+				<source>batiment</source>
+			</trans-unit>
+			<trans-unit id="bureau.description">
+				<source>bureau</source>
+			</trans-unit>
+			<trans-unit id="tel.description">
+				<source>tel</source>
+			</trans-unit>
+			<trans-unit id="horaires.description">
+				<source>horaires</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
