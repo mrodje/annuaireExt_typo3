@@ -17,16 +17,6 @@ call_user_func(
 
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
             'MatthiasRodier.AnnuaireMatthiasRodier',
-            'Keysearchcontact',
-            'mrodier_searchContact'
-        );
-
-        $pluginSignature = str_replace('_', '', $extKey) . '_keysearchcontact';
-        $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignature] = 'pi_flexform';
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($pluginSignature, 'FILE:EXT:' . $extKey . '/Configuration/FlexForms/flexform_keysearchcontact.xml');
-
-        \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-            'MatthiasRodier.AnnuaireMatthiasRodier',
             'Keylistandshoworganisme',
             'mrodier_listAndShowOrganisme'
         );
@@ -34,6 +24,16 @@ call_user_func(
         $pluginSignature = str_replace('_', '', $extKey) . '_keylistandshoworganisme';
         $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignature] = 'pi_flexform';
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($pluginSignature, 'FILE:EXT:' . $extKey . '/Configuration/FlexForms/flexform_keylistandshoworganisme.xml');
+
+        \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
+            'MatthiasRodier.AnnuaireMatthiasRodier',
+            'Keysearchcontact',
+            'mrodier_searchContact'
+        );
+
+        $pluginSignature = str_replace('_', '', $extKey) . '_keysearchcontact';
+        $GLOBALS['TCA']['tt_content']['types']['list']['subtypes_addlist'][$pluginSignature] = 'pi_flexform';
+        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($pluginSignature, 'FILE:EXT:' . $extKey . '/Configuration/FlexForms/flexform_keysearchcontact.xml');
 
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($extKey, 'Configuration/TypoScript', 'Annuaire MRodier');
 

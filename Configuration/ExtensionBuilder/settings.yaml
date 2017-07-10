@@ -49,10 +49,12 @@ overwriteSettings:
   Configuration:
     #TCA merge not possible - use overrides directory
     #TypoScript: keep
+    Flexforms: keep
 
   Resources:
     Private:
       #Language: merge
+      Layouts: keep
       Templates: keep
 
   ext_icon.gif: keep

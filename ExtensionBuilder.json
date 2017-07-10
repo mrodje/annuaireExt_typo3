@@ -312,9 +312,9 @@
                 "actionGroup": {
                     "_default0_list": true,
                     "_default1_show": true,
-                    "_default2_new_create": true,
-                    "_default3_edit_update": true,
-                    "_default4_delete": true,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
                     "customActions": [
                         "search"
                     ]
@@ -487,21 +487,12 @@
         "plugins": [
             {
                 "actions": {
-                    "controllerActionCombinations": "Contact => list,show,create,update,delete",
+                    "controllerActionCombinations": "Contact => list,show",
                     "noncacheableActions": "Contact => list",
                     "switchableActions": "Display contacts\nContact->list; Contact->show;"
                 },
                 "key": "keylistandshowcontact",
                 "name": "mrodier_listAndShowContact"
-            },
-            {
-                "actions": {
-                    "controllerActionCombinations": "Contact => search",
-                    "noncacheableActions": "Contact => search",
-                    "switchableActions": "Search contacts\nContact->search;"
-                },
-                "key": "keysearchcontact",
-                "name": "mrodier_searchContact"
             },
             {
                 "actions": {
@@ -511,6 +502,15 @@
                 },
                 "key": "keylistandshoworganisme",
                 "name": "mrodier_listAndShowOrganisme"
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "Contact => search",
+                    "noncacheableActions": "",
+                    "switchableActions": "Display searchContacts\nContact->search; "
+                },
+                "key": "keysearchcontact",
+                "name": "mrodier_searchContact"
             }
         ],
         "vendorName": "MatthiasRodier"
@@ -554,7 +554,7 @@
         }
     ],
     "log": {
-        "last_modified": "2017-07-09 10:45",
+        "last_modified": "2017-07-10 11:00",
         "extension_builder_version": "7.6.18",
         "be_user": " (1)"
     }

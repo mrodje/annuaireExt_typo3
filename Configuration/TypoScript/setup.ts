@@ -20,27 +20,6 @@ plugin.tx_annuairematthiasrodier_keylistandshowcontact {
   }
 }
 
-plugin.tx_annuairematthiasrodier_keysearchcontact {
-  view {
-    templateRootPaths.0 = EXT:annuaire_matthias_rodier/Resources/Private/Templates/
-    templateRootPaths.1 = {$plugin.tx_annuairematthiasrodier_keysearchcontact.view.templateRootPath}
-    partialRootPaths.0 = EXT:annuaire_matthias_rodier/Resources/Private/Partials/
-    partialRootPaths.1 = {$plugin.tx_annuairematthiasrodier_keysearchcontact.view.partialRootPath}
-    layoutRootPaths.0 = EXT:annuaire_matthias_rodier/Resources/Private/Layouts/
-    layoutRootPaths.1 = {$plugin.tx_annuairematthiasrodier_keysearchcontact.view.layoutRootPath}
-  }
-  persistence {
-    storagePid = {$plugin.tx_annuairematthiasrodier_keysearchcontact.persistence.storagePid}
-    #recursive = 1
-  }
-  features {
-    #skipDefaultArguments = 1
-  }
-  mvc {
-    #callDefaultActionIfActionCantBeResolved = 1
-  }
-}
-
 plugin.tx_annuairematthiasrodier_keylistandshoworganisme {
   view {
     templateRootPaths.0 = EXT:annuaire_matthias_rodier/Resources/Private/Templates/
@@ -52,6 +31,27 @@ plugin.tx_annuairematthiasrodier_keylistandshoworganisme {
   }
   persistence {
     storagePid = {$plugin.tx_annuairematthiasrodier_keylistandshoworganisme.persistence.storagePid}
+    #recursive = 1
+  }
+  features {
+    #skipDefaultArguments = 1
+  }
+  mvc {
+    #callDefaultActionIfActionCantBeResolved = 1
+  }
+}
+
+plugin.tx_annuairematthiasrodier_keysearchcontact {
+  view {
+    templateRootPaths.0 = EXT:annuaire_matthias_rodier/Resources/Private/Templates/
+    templateRootPaths.1 = {$plugin.tx_annuairematthiasrodier_keysearchcontact.view.templateRootPath}
+    partialRootPaths.0 = EXT:annuaire_matthias_rodier/Resources/Private/Partials/
+    partialRootPaths.1 = {$plugin.tx_annuairematthiasrodier_keysearchcontact.view.partialRootPath}
+    layoutRootPaths.0 = EXT:annuaire_matthias_rodier/Resources/Private/Layouts/
+    layoutRootPaths.1 = {$plugin.tx_annuairematthiasrodier_keysearchcontact.view.layoutRootPath}
+  }
+  persistence {
+    storagePid = {$plugin.tx_annuairematthiasrodier_keysearchcontact.persistence.storagePid}
     #recursive = 1
   }
   features {

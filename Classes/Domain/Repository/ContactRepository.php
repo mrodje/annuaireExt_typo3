@@ -17,4 +17,13 @@ namespace MatthiasRodier\AnnuaireMatthiasRodier\Domain\Repository;
  */
 class ContactRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 {
+    /**
+     * @param string $search
+     */
+    public function findBySearch(string $search)
+    {
+        $query = $this->createQuery();
+        $query->matching($query->logicalOr($query->like("nom", "%".$search."%"), $query->like("prenom", "%".$search."%")));
+        return $query->execute();
     }
+}

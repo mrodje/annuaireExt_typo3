@@ -14,13 +14,35 @@
 								<type>select</type>
 								<items>
 									<numIndex index="0">
-										<numIndex index="0">Search contacts</numIndex>
+										<numIndex index="0">Display searchContacts</numIndex>
 										<numIndex index="1">Contact->search</numIndex>
 									</numIndex>
 								</items>
 							</config>
 						</TCEforms>
 					</switchableControllerActions>
+					<settings.pageListing>
+                        <TCEforms>
+                            <label>Page ID</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>pages</allowed>
+                                <size>1</size>
+                                <maxitems>1</maxitems>
+                                <minitems>1</minitems>
+                                <show_thumbs>1</show_thumbs>
+                                <wizards>
+                                    <suggest>
+                                        <type>suggest</type>
+                                        <default>
+                                            <searchWholePhrase>1</searchWholePhrase>
+                                        </default>
+                                    </suggest>
+                                </wizards>
+                            </config>
+                        </TCEforms>
+</settings.pageListing>
 				</el>
 			</ROOT>
 		</sDEF>
